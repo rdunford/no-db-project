@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Kavivanar');
+
+.addrecipe {
+    height: 100vh;
+    width: 100%;
+}
+
+.title{
+    
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 50px;
+    font-family: Kavivanar, sans-serif;
+}
+.left-bar{
+    height:100vh;
+    width:100px;
+    float:left;
+    /* background-color: lightgrey; */
+}
+
+.add-content{
+    width: calc(100% - 100px);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-input{
+    height: 20px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+.img-input{
+    height: 20px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.category-input{
+    height: 20px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+.stars-input{
+    height: 20px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+.ingredients-input{
+    height: 20px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.instructions-input{
+    height: 20px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.submit{
+    height: 100px;
+    width: 150px;
+    border-radius: 3px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black
+}
+
+.submit:hover{
+    border: none;
+    color:#fff;
+    background-color:darkred;
+    cursor: pointer;
+}

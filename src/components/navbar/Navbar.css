@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Kavivanar');
+
+
+.navbar{
+    height: 8vh;
+    width: 100%;
+    display:flex;
+    background-color: #ffffff;
+    -webkit-box-shadow: inset 5px -31px 25px -24px rgba(0,0,0,0.15);
+    -moz-box-shadow: inset 5px -31px 25px -24px rgba(0,0,0,0.15);
+    box-shadow: inset 5px -31px 25px -24px rgba(0,0,0,0.15);
+    text-decoration: none !important;
+}
+
+.nav-left,
+.nav-middle,
+.nav-right{
+    display:flex;
+    width: calc(100vw / 3);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color:black;
+    letter-spacing: 1px;
+}
+
+.nav-left{
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav-left a{
+    text-decoration: none;
+}
+.nav-left a:hover{
+    color:black
+}
+.nav-left a:visited{
+    color:black
+}
+.nav-left a:hover{
+    color:darkred
+}
+
+.left-logo{
+    margin-left: 20px;
+    padding: 10px;
+    /* border: 1px solid black; */
+    font-family: Kavivanar, 'Work Sans', sans-serif;
+}
+.left-logo:hover{
+    cursor: pointer;
+}
+
+.nav-middle{
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.nav-middle a{
+    text-decoration: none
+}
+.nav-middle a:active{
+    color: black;
+}
+.nav-middle a:visited{
+    color: black;
+}
+
+.recipes{
+    padding-left: 30px;
+    border-left:1px solid black;
+}
+.about{
+    color:black;
+}
+
+.blog{
+    padding-right: 30px;
+    border-right:1px solid black;
+}
+
+.nav-middle a:hover{
+    color:darkred;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+.nav-middle span:hover{
+    color:darkred;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+
+.nav-right{
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-items: center;
+}
+
+icon{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    background-color: black;
+}
+
+icon:hover{
+    background-color: darkred;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.facebook{
+    object-fit: contain;
+    background-image: url('./facebook.svg');
+}
+
+.instagram{
+    background-image: url('instagram.svg');
+}
+.twitter{
+    background-image: url('https://www.frankchimero.com/images/twitter.svg');
+}
